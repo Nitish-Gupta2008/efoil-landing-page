@@ -8,9 +8,6 @@ I made this project to practice building a complete website layout without follo
 
 [efoil-landing-page.netlify.app](https://efoil-landing-page.netlify.app/)
 
-## Preview
-
-![Efoil Landing Page](images/preview.png)
 
 ## What I Built
 
