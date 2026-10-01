@@ -1,0 +1,861 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Base background color */
+body {
+    background-color: #100e0b;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.announcement {
+    
+    width: 100%;
+    background-color: #67bed9;
+    color: #fff1ca;
+}
+
+
+.announcement h1 {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+
+/* This is the main navbar */
+.options {
+    height: auto;
+    width: 100%;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4rem;
+
+    padding: 0 40px;
+}
+
+
+/* Logo */
+.image {
+    height: 50px;
+    margin: 40px 0;
+}
+
+
+/* All the navigation buttons stay together in the middle */
+.nav-buttons {
+    display: flex;
+    gap: 100px;
+}
+
+
+.buttons {
+    text-align: center;
+}
+
+
+.buttons a {
+    text-decoration: none;
+    display: inline-block;
+     padding: 20px;
+
+     border: 1px solid transparent;
+     border-radius: 12px;
+     transition: 0.3s ease-in;
+     color: black;
+}
+
+
+.buttons a:hover {
+    border: 1px solid #000000;
+   
+    transform: translateY(-5px);
+}
+
+
+/* Search icon stays on the right */
+.fa-solid {
+    color: #000000;
+    font-size: 19px;
+}
+
+
+/* hero content */
+.hero-content {
+    height: 700px;
+    width: 100%;
+
+    background-image: url(hero.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero-letters p {
+    font-size: 15px;
+    color: #4cc5c0;
+    letter-spacing: 1.4px;
+    line-height: 1.6;
+    margin-top: 170px;
+    margin-left: 195px;
+    font-weight: 1000;
+}
+
+
+.hero-letters h1 {
+    font-size: 82px;
+    color: #ffffff;
+    font-weight: 1000;
+    position: relative;
+
+    font-family: system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-top: 4px;
+    margin-left: 192px;
+    line-height: 0.9;
+
+    text-shadow: #000000;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.65);
+}
+
+
+#paragraph {
+    color: #e8eceb;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.55;
+    margin-top: 16px;
+    text-shadow: 2px 3px 6px rgba(0, 0, 0, 0.65);
+    margin-bottom: 50px;
+}
+
+
+.first-button {
+    padding: 20px;
+    border: 1px solid #67bed9;
+    color: black;
+    border-radius: 12px;
+
+    background: linear-gradient(
+        168deg,
+        #5fc8c4 0%,
+        #36b7b2 48%,
+        #2e9e99 100%
+    );
+
+    text-decoration: none;
+    margin-left: 192px;
+    margin-bottom: 100px;
+}
+
+
+.second-button {
+    padding: 20px;
+    /* background-color: white; */
+    color: white;
+    font-weight: 700;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 1px solid white;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+
+/* Life trust bar */
+.life-trust-bar {
+    height: 100px;
+    width: 100%;
+    background: #201804;
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.fa-regular {
+    font-size: 30px;
+    color: white;
+}
+
+
+.life-trust-bar a {
+    display: inline-block;
+    margin-left: 5PX;
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+}
+
+
+.life-trust-bar p {
+    margin-left: 40px;
+    margin-top: 5px;
+    color: white;
+    opacity: 0.5;
+    font-size: 0.90rem;
+}
+
+
+.fa-solid {
+    font-size: 30px;
+    color: white;
+}
+
+
+/* Lower body */
+.lower-body {
+    min-height: 1000px;
+    width: 100%;
+    color: black;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f4f5f5;
+    padding-bottom: 100px;
+}
+
+
+.lower-body h2 {
+    letter-spacing: 9px;
+    color: #1e6f6c;
+    font-size: 0.98rem;
+    margin-left: 116px;
+    margin-top: 30px;
+}
+
+
+.lower-body H1 {
+    display: inline-block;
+
+    margin-top: 30px;
+    margin-left: 116px;
+    margin-bottom: 50px;
+}
+
+
+.suf-img {
+    display: flex;
+    justify-content: space-evenly;
+    height: 850px;
+    width: 100%;
+}
+
+
+.boards {
+    height: 850px;
+    width: 480px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 13px;
+}
+
+
+.boards:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease-out;
+    border-radius: 13px;
+    border: 1px solid black;
+}
+
+
+.boximg {
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.suf-img h2 {
+    color: #1e6f6c;
+    font-size: 19px;
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+
+
+.suf-img h1 {
+    color: #0b0f0e;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.suf-img p {
+    color: #474646;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+
+.suf-img a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 18px;
+    border: 1px solid transparent;
+
+    transform: translateY(-5px);
+    transition: 0.3s ease-out;
+
+    color: black;
+    letter-spacing: 0.96px;
+    line-height: 1.6;
+}
+
+
+.suf-img a:hover {
+    border-radius: 13px;
+    border: 1px solid black;
+}
+
+
+/* Second hero */
+.hero2 {
+    height: 1000px;
+    width: 100%;
+    background-image: url(hero2.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.header1{
+    color: white;
+    margin-top: 200px;
+    letter-spacing: -0.2rem;
+    margin-bottom: 18px;
+    line-height: 1;
+    font-size: 92px;
+    font-weight: 900;
+}
+
+#para{
+    color: #ffffffe0;
+    font: 1.6rem playfair display;
+    margin-top: 50px;
+}
+
+#button1{
+    padding: 17px 30px;
+    font: 1rem montserrat, sans-serif;
+    background-color: #67bed9;
+    margin-top: 40px;
+border-radius: 13px;
+font-weight: 500;
+color: #ffffff;
+
+}
+
+.hero3{
+
+     background-color: #373737;
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+#foils{
+    color: #ffffff;
+    font: 4.9rem soehne-web-dreiviertelfett, sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#des{
+    color: #ffffff99;
+    font: 25px soehne-web-leicht , sans-serif;
+    line-height: 1.2;
+    letter-spacing: 1.5px;
+}
+
+.boxes-container{
+    height: auto;
+    
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-evenly;
+}
+
+.boxes{background-color: #ffffff;
+margin-top: 50px;
+    height: 700px;
+width: 30%;
+border-radius: 40px;
+}
+
+#box1-for-boxes{
+    background-image: url(box1-for-hero3.webp);
+    background-size: cover;
+    background-position: center;  /*the img wan not fitting perfectly so we used this */  
+}
+
+#box2-for-boxes{
+    background-image: url(box2-for-hero3.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#box3-for-boxes{
+    background-image: url(box3-for-hero3.webp);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 190px;
+}
+
+.header-for-box{
+    margin-top: 740PX;
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.button-for-box{
+    text-decoration: none;
+    color: wheat;
+    font-size: 1.6rem;
+}
+
+/* Reviews */
+
+.reviews-container{
+    height: 1000px;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.review-header{
+    margin-top: 100px;
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: 400;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+.review-box{
+    height: 600px;
+    margin-top: 300px;
+    width: 380px;
+    background-color: #fff1ca;
+    border: 1px solid #fff1ca;
+    border-radius: 13px;
+}
+
+.logo-review-img{
+    margin:15px 15px;
+}
+
+.review-dec{
+    font-size: 30px;
+    font-weight: 400;
+    color: #919090;
+    margin-bottom: 30px;
+padding-left: 20px ;
+}
+
+.button-for-review{
+    text-decoration: none;
+    /* margin-top: 40px;
+    */
+    color: black;
+    font-size: 22px;
+    font-weight: 400;
+    padding-left: 20PX;
+
+
+
+
+    /* responsive design */
+
+/* ---------- TABLET ---------- */
+
+@media (max-width: 1000px) {
+
+    /* Navbar */
+    .options {
+        padding: 0 20px;
+    }
+
+    .nav-buttons {
+        gap: 20px;
+    }
+
+    .buttons a {
+        padding: 12px;
+    }
+
+
+    /* Hero */
+    .hero-letters p {
+        margin-left: 80px;
+    }
+
+    .hero-letters h1 {
+        margin-left: 80px;
+        font-size: 65px;
+    }
+
+    #paragraph {
+        margin-left: 80px;
+    }
+
+    .first-button {
+        margin-left: 80px;
+    }
+
+
+    /* Trust bar */
+    .life-trust-bar {
+        height: auto;
+        padding: 25px 10px;
+    }
+
+    .item-list {
+        text-align: center;
+    }
+
+    .life-trust-bar p {
+        margin-left: 0;
+    }
+
+
+    /* Product cards */
+    .suf-img {
+        height: auto;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .boards {
+        width: 31%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .boximg {
+        width: 85%;
+        height: auto;
+        margin-left: 7.5%;
+    }
+
+
+    /* Hero 2 */
+    .header1 {
+        font-size: 65px;
+    }
+
+
+    /* Foils */
+    .boxes {
+        height: 550px;
+    }
+
+    .header-for-box {
+        margin-top: 580px;
+    }
+
+
+    /* Reviews */
+    .reviews-container {
+        height: auto;
+        padding: 180px 20px 100px;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .review-box {
+        width: 45%;
+        height: auto;
+        min-height: 500px;
+        margin-top: 0;
+    }
+
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 600px) {
+
+    /* Announcement */
+    .announcement h1 {
+        font-size: 0.85rem;
+        padding: 8px;
+    }
+
+
+    /* Navbar */
+
+    .options {
+        padding: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .image {
+        height: 40px;
+        margin: 5px 0;
+    }
+
+    .nav-buttons {
+        width: 100%;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .buttons a {
+        padding: 8px;
+        font-size: 0.85rem;
+    }
+
+    .options .fa-magnifying-glass {
+        font-size: 18px;
+    }
+
+
+    /* Hero */
+
+    .hero-content {
+        height: 650px;
+        background-position: center;
+    }
+
+    .hero-letters {
+        padding: 0 20px;
+    }
+
+    .hero-letters p {
+        margin-left: 0;
+        margin-top: 100px;
+        font-size: 12px;
+    }
+
+    .hero-letters h1 {
+        margin-left: 0;
+        font-size: 48px;
+    }
+
+    #paragraph {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .first-button {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .second-button {
+        padding: 15px;
+        margin-left: 5px;
+    }
+
+
+    /* Trust bar */
+
+    .life-trust-bar {
+        flex-direction: column;
+        height: auto;
+        gap: 35px;
+        padding: 40px 20px;
+    }
+
+    .item-list {
+        width: 100%;
+    }
+
+    .life-trust-bar a {
+        font-size: 0.85rem;
+    }
+
+    .life-trust-bar p {
+        font-size: 0.8rem;
+    }
+
+
+    /* Lineup */
+
+    .lower-body {
+        padding-bottom: 60px;
+    }
+
+    .lower-body > h2,
+    .lower-body > h1 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .lower-body > h2 {
+        font-size: 0.75rem;
+        letter-spacing: 4px;
+    }
+
+    .lower-body > h1 {
+        font-size: 1.8rem;
+    }
+
+    .suf-img {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 30px;
+        padding: 0 20px;
+    }
+
+    .boards {
+        width: 100%;
+        max-width: 420px;
+        height: auto;
+        padding-bottom: 35px;
+    }
+
+    .boximg {
+        width: 85%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .suf-img h2,
+    .suf-img h1,
+    .suf-img p {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .suf-img p {
+        font-size: 16px;
+    }
+
+
+    /* Hero 2 */
+
+    .hero2 {
+        height: 700px;
+    }
+
+    .header1 {
+        font-size: 50px;
+        margin-top: 150px;
+        padding: 0 20px;
+    }
+
+    #para {
+        font-size: 1.1rem;
+        padding: 0 20px;
+    }
+
+
+    /* Foils */
+
+    #foils {
+        font-size: 3rem;
+    }
+
+    #des {
+        font-size: 17px;
+        padding: 0 20px;
+    }
+
+    .boxes-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .boxes {
+        width: 90%;
+        height: 500px;
+        margin-top: 20px;
+    }
+
+    #box3-for-boxes {
+        margin-bottom: 80px;
+    }
+
+    .header-for-box {
+        margin-top: 530px;
+        font-size: 1.8rem;
+    }
+
+
+    /* Reviews */
+
+    .reviews-container {
+        height: auto;
+        padding: 120px 20px 70px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .review-header {
+        top: 30px;
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .review-box {
+        width: 100%;
+        max-width: 420px;
+        min-height: 0;
+        height: auto;
+        padding-bottom: 30px;
+        margin-top: 0;
+    }
+
+    .review-dec {
+        font-size: 20px;
+        padding: 0 20px;
+    }
+
+    .button-for-review {
+        font-size: 18px;
+    }
+
+}
+
+
