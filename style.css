@@ -421,7 +421,7 @@ border-radius: 40px;
 #box1-for-boxes{
     background-image: url(box1-for-hero3.webp);
     background-size: cover;
-    background-position: center;  /*the img wan not fitting perfectly so we used this */  
+    background-position: center;  /*the img was not fitting perfectly so we used this */  
 }
 
 #box2-for-boxes{
@@ -501,11 +501,10 @@ padding-left: 20px ;
     font-size: 22px;
     font-weight: 400;
     padding-left: 20PX;
+}
 
 
-
-
-    /* responsive design */
+/* responsive design */
 
 /* ---------- TABLET ---------- */
 
@@ -618,6 +617,7 @@ padding-left: 20px ;
 @media (max-width: 600px) {
 
     /* Announcement */
+
     .announcement h1 {
         font-size: 0.85rem;
         padding: 8px;
@@ -704,6 +704,7 @@ padding-left: 20px ;
 
     .item-list {
         width: 100%;
+        text-align: center;
     }
 
     .life-trust-bar a {
@@ -735,6 +736,9 @@ padding-left: 20px ;
     .lower-body > h1 {
         font-size: 1.8rem;
     }
+
+
+    /* Product cards */
 
     .suf-img {
         flex-direction: column;
@@ -774,6 +778,7 @@ padding-left: 20px ;
 
     .hero2 {
         height: 700px;
+        background-position: center;
     }
 
     .header1 {
@@ -857,5 +862,3 @@ padding-left: 20px ;
     }
 
 }
-
-
